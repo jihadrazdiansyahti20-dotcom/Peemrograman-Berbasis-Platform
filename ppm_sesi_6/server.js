@@ -1,8 +1,9 @@
 const http = require('http');
+
 const server = http.createServer((req, res) => {
     //data object literal
     const data = {
-        Nama: 'Mahasiswa',
+        Nama: 'Jihad',
         Kelas: 'TI25A',
         Matakuliah: 'Pemrograman Javascript'
     };
