@@ -5,7 +5,7 @@ const server = http.createServer((req, res) => {
     const data = {
         Nama: 'Jihad',
         Kelas: 'TI25A',
-        Matakuliah: 'Pemrograman Javascript'
+        Matakuliah: 'Pemrograman berbasis platform'
     };
 
     res.writeHead(200, {'Content-Type': 'application/json'});
